@@ -4,7 +4,7 @@ A simple URL shortener service that allows users to convert long URLs into short
 
 ## Features
 
-*Shorten long URLs into concise, shareable links.
-*Redirect users to the original URL when the shortened link is accessed.
-*Simple and intuitive user interface.
+* Shorten long URLs into concise, shareable links.
+* Redirect users to the original URL when the shortened link is accessed.
+* Simple and intuitive user interface.
 
