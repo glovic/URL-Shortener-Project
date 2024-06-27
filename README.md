@@ -37,7 +37,7 @@ The URL Shortener project simplifies long URLs, making them easier to share and 
 ### Steps
 1. **Clone the Repository:**
     ```sh
-    git clone https://github.com/yourusername/url-shortener.git
+    git clone https://github.com/glovic/URL-Shortener-Project.git
     cd url-shortener
     ```
 
