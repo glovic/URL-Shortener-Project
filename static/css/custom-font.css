@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url('../fonts/GTWalsheimPro-CondensedLight.eot');
+    src: local('GT Walsheim Pro Condensed Light'), local('GTWalsheimPro-CondensedLight'), url('../fonts/GTWalsheimPro-CondensedLight.eot?#iefix') format('embedded-opentype'), url('../fonts/GTWalsheimPro-CondensedLight.woff2') format('woff2'), url('../fonts/GTWalsheimPro-CondensedLight.woff') format('woff'), url('../fonts/GTWalsheimPro-CondensedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Cond';
+    src: url('../fonts/GTWalsheimPro-CondensedMedium.eot');
+    src: local('GT Walsheim Pro Condensed Medium'), local('GTWalsheimPro-CondensedMedium'), url('../fonts/GTWalsheimPro-CondensedMedium.eot?#iefix') format('embedded-opentype'), url('../fonts/GTWalsheimPro-CondensedMedium.woff2') format('woff2'), url('../fonts/GTWalsheimPro-CondensedMedium.woff') format('woff'), url('../fonts/GTWalsheimPro-CondensedMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url('../fonts/GTWalsheimPro-CondensedBlack.eot');
+    src: local('GT Walsheim Pro Condensed Black'), local('GTWalsheimPro-CondensedBlack'), url('../fonts/GTWalsheimPro-CondensedBlack.eot?#iefix') format('embedded-opentype'), url('../fonts/GTWalsheimPro-CondensedBlack.woff2') format('woff2'), url('../fonts/GTWalsheimPro-CondensedBlack.woff') format('woff'), url('../fonts/GTWalsheimPro-CondensedBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
