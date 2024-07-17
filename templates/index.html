@@ -7,6 +7,9 @@
     <title>Shorten Your URLs</title>
     <link rel="stylesheet" href="../static/css/main.css">
     <link rel="stylesheet" href="../static/css/custom-font.css">
+    <!-- Link to your JavaScript file -->
+    <script src="../static/js/script.js" defer></script>
+
 </head>
 
 <body>
@@ -18,24 +21,6 @@
             <button onclick="shortenURL()">Shorten</button>
         </div>
     </div>
-    <script>
-        async function shortenURL() {
-            const urlInput = document.getElementById('url-input').value;
-            if (urlInput) {
-                const response = await fetch('http://localhost:5000/api/shorten', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        original_url: urlInput
-                    })
-                });
-                const result = await response.json();
-                window.location.href = 'copy_page.html?short_url=' + encodeURIComponent(result.short_url);
-            }
-        }
-    </script>
 </body>
 
 </html>

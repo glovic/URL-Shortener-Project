@@ -9,13 +9,14 @@ body {
     background: url('../img/bgimage.png') no-repeat center/cover;
 }
 
-.container {
+
+/*.container {
     text-align: center;
     background: white;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
+}*/
 
 .title {
     font-size: 3em;
